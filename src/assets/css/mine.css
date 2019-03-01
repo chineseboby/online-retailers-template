@@ -1,0 +1,80 @@
+@charset "utf-8";
+.mine_info {
+    width: 100%;
+    max-width: 750px;
+    height: 2.7rem;
+    margin: 0 auto;
+    background: url('../../../static/images/20190301/my-page-bg-wap.png') no-repeat;
+    background-size: cover;
+    padding: 0.7rem 0.3rem 0;
+}
+.mine_info h1 {
+    font-size: 0.3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+.my_order {
+    margin-top: 0.6rem;
+}
+.my_order h3 {
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.26rem;
+    line-height: 0.42rem;
+    color: #333;
+    background: url('../../../static/images/20190301/icon-gt.png') right center no-repeat;
+    background-size: 0.16rem;
+}
+.my_order .order_bar {
+    display: flex;
+    width: 100%;
+    padding: 0.3rem 0;
+}
+.my_order .order_bar .bar_i {
+    width: 25%;
+    text-align: center;
+}
+.my_order .order_bar .bar_i img {
+    max-width: 0.44rem;
+    display: table;
+    margin: auto;
+}
+.my_order .order_bar .bar_i p {
+    font-size: 0.24rem;
+    line-height: 0.42rem;
+    color: #666;
+}
+.supervise {
+    position: relative;
+    padding-top: 0.2rem;
+}
+.supervise:before {
+    display: block;
+    width: 100%;
+    height: 0.1rem;
+    content: "";
+    background: #ebeef0;
+}
+.supervise_item {
+    border-bottom: 1px solid #ccc;
+    font-size: 0.26rem;
+    line-height: 0.42rem;
+    color: #333;
+    background: url('../../../static/images/20190301/icon-gt.png') right center no-repeat;
+    background-size: 0.16rem;
+    padding: 0.2rem 0;
+}
+.userout {
+    margin-top: 1rem;
+}
+.userout button {
+    display: block;
+    width: 100%;
+    font-size: 0.28rem;
+    line-height: 0.7rem;
+    height: 0.7rem;
+    color: #fff;
+    background: #eb6103;
+    text-align: center;
+    border: 0;
+}
